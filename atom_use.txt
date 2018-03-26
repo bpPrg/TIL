@@ -1,0 +1,7 @@
+Author: Bhishan Poudel, Physics PhD student Ohio University
+Date  : Mar 4, 2018
+
+Topic: Using Atom
+====================================
+1. press cmd-shf-c    to see the colors, click the colors to paste.
+/Users/poudel/Dropbox/latest/atom_macpro_keymap.cson

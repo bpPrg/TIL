@@ -1,0 +1,7 @@
+Employee ID, Employee Name, Age, Gender, Department, Salary
+101, John Davies, 35, M, Finance, $4000
+102, Mary Fernandes, 29, F, Human Resources, $3000
+103, Jacob Williams, 40, M, Sales, $4700
+104, Sean Anderson, 25, M, Production, $2700
+105, Nick Jones, 42, M, Finance, $7500
+106, Diana Richardson, 29, F, Finance, $3200

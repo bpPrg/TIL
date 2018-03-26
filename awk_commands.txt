@@ -1,0 +1,18 @@
+# Author    : Bhishan Poudel
+# Date      : Jul 24, 2017 Mon
+# Ref:
+http://www.folkstalk.com/2012/01/replace-string-with-awksed-command-in.html
+
+
+
+Today I Learned
+================
+$0 is whole line.
+$1 is first column.
+
+awk '{print $4,$5}' input_file
+awk '{if($2=="unix") {$2="fedora"} print $0}' file.txt
+
+awk '{print NF}' input_file
+awk 'END {print NF}' input_file    # print number of coluns in last line
+awk 'END {print NR}' input_file    # print number of lines

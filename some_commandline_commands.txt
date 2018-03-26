@@ -1,0 +1,4 @@
+Author: Bhishan Poudel
+Date: July 29, 2017
+
+1. sw_vers  gives version info on Mac.

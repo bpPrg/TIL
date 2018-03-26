@@ -1,0 +1,7 @@
+Author: Bhishan Poudel, Physics PhD student Ohio University
+Date  : Feb 8, 2018
+
+Topic: Compile c program
+====================================
+# best and most portable method
+gcc -Wall -Wstrict-prototypes -ansi -pedantic -c foo.cc

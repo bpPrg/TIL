@@ -1,0 +1,33 @@
+Author: Bhishan Poudel, Physics PhD student Ohio University
+Date  : Mar 12, 2018
+
+Topic: Unix Command column
+====================================
+https://linux.die.net/man/1/column
+
+example:
+(printf "PERM LINKS OWNER GROUP SIZE MONTH DAY HH:MM/YEAR NAME\n" \
+; ls -l | sed 1d) | column -t
+
+example 2
+==========
+https://www.lifewire.com/file-contents-in-column-format-linux-4018107
+
+command: cat league.txt
+less league.txt
+more league.txt
+column league.txt
+column -s"|" -t league.txt    # -s is separator; -t is tabular format
+
+
+example3
+===========
+https://unix.stackexchange.com/questions/337735/formatting-text-into-columns
+
+In Awk, NF is the number of fields (columns), and $NF is the data in the last field. 
+The script I'm using simply modifies the data of the last field by 
+prepending a tab character, before printing the complete line.
+
+
+
+awk '{ $NF = "\t" $NF; print }' names.txt | column -t -s $'\t'

@@ -1,0 +1,13 @@
+Author: Bhishan Poudel, Physics PhD student Ohio University
+Date  : Jan 29, 2018
+
+Topic: Internet browsers
+====================================
+1. Safari
+can not open youtube in background, pauses if we go to other tabs.
+safe to use.
+if we just watch one video, can open in-frame mode.
+
+2. Chrome
+easy to use google hangout
+a lot of bookmarks already stored.

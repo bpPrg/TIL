@@ -1,0 +1,35 @@
+Author: Bhishan Poudel, Physics PhD student Ohio University
+Date  : Mar 12, 2018
+
+Topic: Unix Command cut
+====================================
+http://www.yourownlinux.com/2015/05/cut-command-in-linux-tutorial-with-examples.html
+
+
+-d = delimiter e.g. ' ' $'\t'  ','  '|'
+-f = Field
+
+NOTE: column -s"," -t employees.txt  # pretty output
+
+1. Display filed 2 (second column)
+cut -d ',' -f 2 employees.txt
+
+2. fields 2,3,5
+cut -d ',' -f 2-3,5 employees.txt
+cut -d ',' -f 2-3,5 employees.txt | column -s"," -t
+
+3. except filed 6
+cut -d ',' --complement -f 6 employees.txt
+
+4. change delimiter
+cut -d ',' -f 2-4 --output-delimiter='|' employees.txt
+
+
+
+Employee ID, Employee Name, Age, Gender, Department, Salary
+101, John Davies, 35, M, Finance, $4000
+102, Mary Fernandes, 29, F, Human Resources, $3000
+103, Jacob Williams, 40, M, Sales, $4700
+104, Sean Anderson, 25, M, Production, $2700
+105, Nick Jones, 42, M, Finance, $7500
+106, Diana Richardson, 29, F, Finance, $3200

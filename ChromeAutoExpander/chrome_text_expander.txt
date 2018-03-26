@@ -1,0 +1,49 @@
+Author: Bhishan Poudel, Physics PhD student Ohio University
+Date  : Mar 13, 2018
+
+Topic: Using Text expansion in Chrome
+======================================
+
+While using overleaf in Google Chrome, I wanted to use the snippets like
+as in Atom editor. 
+
+I searched for paid mac applications:
+a) aText $3
+b) TextExpander $45 and so on.
+
+NOTE: Default mac setting expansion does not work in overleaf, but works in mail.
+
+Alternatives:
+-------------
+a) Chrome Plugin: Auto Text Expander
+- can store upto 512 snippets as per chrome sync rule.
+- Can use macros like d(MMMM Do YYYY, h:mm:ss a)  and %clip% 
+- can use  102400 bytes (O.1 Mb) only.
+- This is about one page of document.
+- Works in overleaf.
+- DOES NOT work In Google Doc.
+
+b) Chrome Plugin: Blaze
+- 3 groups and 10 snippets per group and 2500 characters per snippets.
+- works in overleaf.
+- Works In google doc.
+- Pro version available $2 per month.
+
+
+
+
+c) Chrome Plugin: ProKeys
+ - DOES NOT work in overleaf
+ - works in gmail (we can set alt space as the hot keys)
+ - can save data locally 5 Mb.
+
+
+NOTE: BLAZE sample
+This is to confirm you checked out books today, {time: MMMM Do, YYYY}.
+They will be due in 30 days ({time: MMMM Do, YYYY; shift=30D}).
+If they are not returned in 45 days ({time: MMMM Do, YYYY; shift=45D}), your account will be frozen.
+
+<div>{cursor}</div>
+ 
+ 
+nepal in 
